@@ -9,7 +9,25 @@ section:not(#dailyOffer) .card:hover {
 
 section#lastMinute .card {
     background-color: #929292;
-    color: #fff
+    color: #fff;
+    max-width: 30em;
+    width: 100%
+}
+
+section#lastMinute .card img {
+    width: 125px;
+    /* height: 65px" */
+
+}
+
+section#lastMinute .card .card-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+
+section#lastMinute .card .cta-section div {
+    font-size: 1.05em;
 }
 
 section#testimonial .card-wrapper {
