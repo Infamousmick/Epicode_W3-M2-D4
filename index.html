@@ -13,6 +13,10 @@
       src="https://kit.fontawesome.com/b8761b87ac.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/b8761b87ac.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="assets/style/style.css" />
     <title>Infa Agency</title>
   </head>
@@ -110,10 +114,17 @@
     </section>
     <!--Weekly Offers-->
     <section class="mt-5" id="weeklyOffers">
-      <h2 class="title text-center">Offerte della settimana</h2>
       <!--Card Wrapper-->
       <div class="container-md card-wrapper mt-5">
-        <div class="row gy-4">
+        <div
+          class="button-hide d-flex align-items-center justify-content-center justify-content-md-start gap-3"
+          button-target="#weeklyOffersRow"
+          id="button-hide1"
+        >
+          <h2 class="title">Offerte della settimana</h2>
+          <i class="fa-solid fa-chevron-up fs-5"></i>
+        </div>
+        <div class="row gy-4 mt-2" id="weeklyOffersRow">
           <!--Card column-->
           <div class="col-6 col-md-4 col-lg-3">
             <div class="card">
@@ -195,10 +206,17 @@
     </section>
     <!--Welcome Summer-->
     <section id="welcomeSummer">
-      <h2 class="title text-center mt-5">Welcome Summer</h2>
       <!--Card Wrapper-->
       <div class="container-md card-wrapper mt-5">
-        <div class="row gx-2 gy-4">
+        <div
+          class="button-hide d-flex align-items-center justify-content-center justify-content-md-start gap-3"
+          button-target="#welcomeSummerRow"
+          id="button-hide2"
+        >
+          <h2 class="title">Welcome Summer</h2>
+          <i class="fa-solid fa-chevron-up fs-5"></i>
+        </div>
+        <div class="row gx-2 gy-4 mt-2" id="welcomeSummerRow">
           <!--Card column-->
           <div class="col-6 col-md-4 col-lg-2">
             <div class="card shadow">
@@ -316,12 +334,18 @@
         </div>
       </div>
     </section>
-
     <!--Daily Offer-->
     <section class="d-none d-md-block mt-5" id="dailyOffer">
       <div class="container-md mt-1">
-        <h2 class="title ms-0 p-0">Offerta del giorno</h2>
-        <div class="row">
+        <div
+          class="button-hide d-flex align-items-center justify-content-center justify-content-md-start gap-3"
+          button-target="#dailyOfferRow"
+          id="button-hide3"
+        >
+          <h2 class="title">Offerte del giorno</h2>
+          <i class="fa-solid fa-chevron-up fs-5"></i>
+        </div>
+        <div class="row mt-4" id="dailyOfferRow">
           <!--Card Column-->
           <div class="card col-3 bg-info" style="--bs-bg-opacity: 0.2">
             <div class="card-body">
@@ -346,15 +370,24 @@
         </div>
       </div>
     </section>
-
     <!--Last Minute-->
     <section id="lastMinute">
-      <h2 class="title text-center mt-5">Last Minute</h2>
       <!--Card Wrapper-->
       <div class="container-md card-wrapper mt-5">
-        <div class="d-flex flex-column align-items-center gap-2 gap-md-3">
+        <div
+          class="button-hide d-flex align-items-center justify-content-center justify-content-md-start gap-3"
+          button-target="#lastMinuteRow"
+          id="button-hide4"
+        >
+          <h2 class="title">Last Minute</h2>
+          <i class="fa-solid fa-chevron-down fs-5"></i>
+        </div>
+        <div
+          class="row align-items-center gap-2 gap-md-3 mt-5 justify-content-center"
+          id="lastMinuteRow"
+        >
           <!--Card Element-->
-          <div class="card d-flex flex-row p-2 p-md-3">
+          <div class="card col-12 col-md-6 d-flex flex-row p-2 p-md-3">
             <img
               src="assets/img/asiago.png"
               class="rounded flex-shrink-0 object-fit-cover align-self-center"
@@ -380,7 +413,7 @@
             </div>
           </div>
           <!--Card Element-->
-          <div class="card d-flex flex-row p-2 p-md-3">
+          <div class="card col-12 col-md-6 d-flex flex-row p-2 p-md-3">
             <img
               src="assets/img/pesocostanzo.png"
               class="rounded flex-shrink-0 object-fit-cover align-self-center"
@@ -404,7 +437,7 @@
             </div>
           </div>
           <!--Card Element-->
-          <div class="card d-flex flex-row p-2 p-md-3">
+          <div class="card col-12 col-md-6 d-flex flex-row p-2 p-md-3">
             <img
               src="assets/img/cervinia.png"
               class="rounded flex-shrink-0 object-fit-cover align-self-center"
@@ -430,7 +463,7 @@
             </div>
           </div>
           <!--Card Element-->
-          <div class="card d-flex flex-row p-2 p-md-3">
+          <div class="card col-12 col-md-6 d-flex flex-row p-2 p-md-3">
             <img
               src="assets/img/campiglio.png"
               class="rounded flex-shrink-0 object-fit-cover align-self-center"
@@ -571,5 +604,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
