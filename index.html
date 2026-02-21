@@ -437,30 +437,82 @@
     <section id="testimonial">
       <h2 class="title text-center mt-5">Alcune testimonianze</h2>
       <!--Card Wrapper-->
-      <div class="container-md card-wrapper">
+      <div class="container card-wrapper mt-5">
         <div class="row">
-          <!--Card column-->
-          <div class="col-6 col-md-4 mt-2">
-            <div class="card profile-card-5">
-              <div class="card-img-block">
-                <img
-                  class="card-img-top"
-                  src="https://images.unsplash.com/photo-1517832207067-4db24a2ae47c"
-                  alt="Card image cap"
-                />
+          <div class="col-md-8 mx-auto position-relative my-0 mx-auto">
+            <div
+              id="testimonialCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="testimonial-slide">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/44.jpg"
+                      alt="Testimonial 1"
+                      class="rounded-circle"
+                    />
+                    <p>
+                      "Mi sono trovato benissimo con
+                      <strong class="text-info">Infa Agency</strong>. Hanno
+                      saputo trovarmi la
+                      <strong class="text-success">vacanza ideale</strong>!"
+                    </p>
+                    <p><strong>John Doe</strong></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="testimonial-slide">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/44.jpg"
+                      alt="Testimonial 2"
+                      class="rounded-circle"
+                    />
+                    <p>
+                      "Michelangelo si è rivelato
+                      <strong class="text-warning">affidabile</strong> e
+                      <strong class="text-success">
+                        il miglior consulente di vacanze</strong
+                      >. Mi affiderò sempre alla sua
+                      <strong class="text-info">Infa Agency</strong>."
+                    </p>
+                    <p><strong>Jane Smith</strong></p>
+                  </div>
+                </div>
               </div>
-              <div class="card-body pt-0 mt-2 bg-transparent">
-                <h5 class="card-title">Florence Pink</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+              <div class="text-center">
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#testimonialCarousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
             </div>
-            <p class="mt-3 w-100 float-left text-center"></p>
           </div>
         </div>
       </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

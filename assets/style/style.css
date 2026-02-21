@@ -12,12 +12,32 @@ section#lastMinute .card {
     color: #fff
 }
 
-
-
-.fas.fa-share-alt:hover {
-    color: #0d47a1 !important;
+section#testimonial .card-wrapper {
+    max-width: 50%;
+    margin: 0 auto;
 }
 
-.fas.fa-heart:hover {
-    color: red;
+.testimonial-slide {
+    text-align: center;
+    padding: 20px;
+}
+
+.testimonial-slide img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #fff;
 }
