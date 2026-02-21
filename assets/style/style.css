@@ -3,6 +3,21 @@
     transition: all 0.2s ease
 }
 
-.card:hover {
+section:not(#dailyOffer) .card:hover {
     scale: 1.05
+}
+
+section#lastMinute .card {
+    background-color: #929292;
+    color: #fff
+}
+
+
+
+.fas.fa-share-alt:hover {
+    color: #0d47a1 !important;
+}
+
+.fas.fa-heart:hover {
+    color: red;
 }
