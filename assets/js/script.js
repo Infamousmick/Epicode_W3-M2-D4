@@ -54,11 +54,14 @@ btnMessage.addEventListener("click", () => {
 // Bottone per far sparire tutte le card
 let cardsHided = false;
 const hideCards = document.querySelector(".hide-cards");
+const dailyOfferImg = document.querySelector("#dailyOffer img");
 hideCards.addEventListener("click", () => {
   const cardsList = document.querySelectorAll(".card");
   cardsList.forEach((element) => {
     element.classList.toggle("d-none");
   });
+
+  dailyOfferImg.classList.toggle("d-none");
   if (!cardsHided) {
     hideCards.textContent = "Fai riapparire le cards";
     cardsHided = true;
